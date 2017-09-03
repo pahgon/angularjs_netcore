@@ -1,0 +1,8 @@
+D:\Code_Example\AngularJs\angularjs_netcore\bin\Debug\netcoreapp1.1\angularjs_netcore.deps.json
+D:\Code_Example\AngularJs\angularjs_netcore\bin\Debug\netcoreapp1.1\angularjs_netcore.runtimeconfig.json
+D:\Code_Example\AngularJs\angularjs_netcore\bin\Debug\netcoreapp1.1\angularjs_netcore.runtimeconfig.dev.json
+D:\Code_Example\AngularJs\angularjs_netcore\bin\Debug\netcoreapp1.1\angularjs_netcore.dll
+D:\Code_Example\AngularJs\angularjs_netcore\bin\Debug\netcoreapp1.1\angularjs_netcore.pdb
+D:\Code_Example\AngularJs\angularjs_netcore\obj\Debug\netcoreapp1.1\angularjs_netcore.AssemblyInfo.cs
+D:\Code_Example\AngularJs\angularjs_netcore\obj\Debug\netcoreapp1.1\angularjs_netcore.dll
+D:\Code_Example\AngularJs\angularjs_netcore\obj\Debug\netcoreapp1.1\angularjs_netcore.pdb
