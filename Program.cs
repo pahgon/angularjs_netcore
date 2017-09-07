@@ -17,7 +17,6 @@ namespace angularjs_netcore
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
-
             host.Run();
         }
     }
