@@ -16,6 +16,7 @@ namespace angularjs_netcore
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
+                .UseUrls("http://localhost:3001/")
                 .Build();
             host.Run();
         }
