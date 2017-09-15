@@ -6,19 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace angularjs_netcore.Controllers
 {
-    [Route("api/[controller]/[action]")]
     public class NewsController : Controller
     {
-        [HttpGet]
-        public string[] Get()
+        public IActionResult Index()
         {
-            //TODO: Implement Realistic Implementation
-            return new string[] { "1", "2" };
-        }
-        public string[] Get2()
-        {
-            //TODO: Implement Realistic Implementation
-            return new string[] { "1", "2" };
+            return View();
         }
     }
 }
