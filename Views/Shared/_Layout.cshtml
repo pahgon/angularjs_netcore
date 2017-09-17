@@ -19,11 +19,10 @@
     <link rel="stylesheet" href="@Url.Content("../components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css")">
     <!-- Daterange picker -->
     <link rel="stylesheet" href="@Url.Content("../components/bootstrap-daterangepicker/daterangepicker.css")">
-    <!--AngularJS-->
-    <script src="@Url.Content("../lib/angularjs/angular.min.js")"></script>
-
+     <base href="/">
+    
 </head>
-<body  class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-blue sidebar-mini" ng-app="routingApp">
 
 <div class="wrapper">
   <header class="main-header">
@@ -316,7 +315,7 @@
       </form>
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
-      <ul class="sidebar-menu" data-widget="tree">
+      <ul class="sidebar-menu" data-widget="tree"></a>>
         <li class="header">MAIN NAVIGATION</li>
         <li class="active treeview">
           <a href="#">
@@ -326,7 +325,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> News</a></li>
+            <li class="active"><a href="/news"><i class="fa fa-circle-o"></i> News</a></li>
             <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
           </ul>
         </li>
@@ -336,7 +335,8 @@
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+  <div class="content-wrapper" >
+      <div ng-view></div>
         @RenderBody()
   </div>
   <!-- /.content-wrapper -->
@@ -546,6 +546,10 @@
 
 
     @RenderSection("Scripts", required: false)
+        <!--AngularJS-->
+    <script src="@Url.Content("../lib/angularjs/angular.min.js")"></script>
+    <script src="@Url.Content("../lib/angularjs/angular-route.js")"></script>
+
     <script src="@Url.Content("../lib/jquery/dist/jquery.min.js")"></script>
     <script src="@Url.Content("../adminLTE/js/adminlte.min.js")"></script>
     <script src="@Url.Content("../lib/jquery/dist/jquery.min.js")"></script>
@@ -554,5 +558,7 @@
     <script src="@Url.Content("../lib/bootstrap/dist/js/bootstrap.min.js")" /></script>
     <script src="@Url.Content("../lib/moment/min/moment.min.js")"></script>
     <script src="@Url.Content("../lib/moment/min/moment-with-locales.min.js")"></script>
+    <script src="@Url.Content("../Client/Controllers/routingController.js")"></script>
+    <script src="@Url.Content("../Client/Controllers/newsController.js")"></script>
 </body>
 
