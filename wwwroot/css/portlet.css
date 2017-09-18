@@ -1,0 +1,19 @@
+/*==================
+     Portlet 
+ ==================*/
+
+.portlet {
+    background: #fff;
+    border-radius: 3px;
+    border-top: 3px;
+    padding: 6px;
+}
+
+
+/*===============================
+    Blue Portlet 
+ ==============================*/
+
+.blue.portet {
+    border-top-color: #3c8dbc;
+}

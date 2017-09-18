@@ -52,6 +52,11 @@ namespace angularjs_netcore
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
+                    name: "Admin",
+                    template: "admin/news",
+                    defaults: new { controller = "Home", action = "Index" });
+
+                routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
