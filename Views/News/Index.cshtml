@@ -1,5 +1,5 @@
 <div class="portlet manager blue">
-    <div class="content-header">
+    <div class="header">
         <span class="caption">
             <i class="fa-icon"></i>
             <span>Title</span>
@@ -11,7 +11,17 @@
         <div class="clearfix"></div>
     </div>
     <!-- content-header -->
-    <div class="content portlet-body">
-         Body
+    <div class="body">
+        <div class="search-container">
+            
+        </div>
+        <div class="tools-container" ng-controller="newsCtrl">
+            <input type="button" value="Add" ng-click="showDialog()" class="btn btn-default"/>
+        </div>
+
+        <div class="gird-container">
+            <table id="tblNews" class="table table-bordered table-striped table-hover">
+            </table>
+        </div>
     </div>
 </div>
