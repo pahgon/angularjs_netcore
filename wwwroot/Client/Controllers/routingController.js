@@ -14,7 +14,6 @@
         $routeProvider.
             when('/admin/news', {
                 templateUrl: '/news',
-                controller: 'newsCtrl'
             }).
             when('/account', {
                 templateUrl: '/account'
